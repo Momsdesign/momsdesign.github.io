@@ -49,7 +49,7 @@ position: fixed;
     justify-content: center;
     text-decoration: none;
     color: black;
-    transition: linear 2s;
+    transition: ease-in 350ms;
     mix-blend-mode: exclusion;
 }
 
