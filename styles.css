@@ -1,3 +1,25 @@
+@font-face {
+    font-family: 'nimbus_sans_lbold';
+    src: url('fonts/nimbussanl-bol-webfont.woff2') format('woff2'),
+            url('fonts/nimbussanl-bol-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'nimbus_sans_lregular';
+    src: url('fonts/nimbussanl-reg-webfont.woff2') format('woff2'),
+            url('fonts/nimbussanl-reg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 html {
     font-size: 30px;
 }
@@ -48,7 +70,7 @@ position: fixed;
     justify-content: center;
     text-decoration: none;
     color: black;
-    transition: 2s cubic-bezier(1,-0.1,.34,1.24) ;
+    transition: 1s cubic-bezier(1,-0.1,.18,1.1) ;
     mix-blend-mode: exclusion;
 }
 
@@ -85,4 +107,7 @@ a {
     color: #000;
     text-decoration: none;
     font-size: 24px;
+}
+* {
+    font-family: 'nimbus_sans_lregular', Arial, Helvetica, sans-serif;
 }
