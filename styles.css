@@ -111,3 +111,26 @@ a {
 * {
     font-family: 'nimbus_sans_lregular', Arial, Helvetica, sans-serif;
 }
+
+h4 {
+    font-weight: lighter;
+}
+
+.centerhome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9em;
+}
+
+.case {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.casetext {
+    margin: 0;
+    font-weight: lighter;
+}
