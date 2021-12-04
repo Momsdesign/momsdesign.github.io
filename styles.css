@@ -124,10 +124,11 @@ h4 {
 }
 
 .case {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 720px 720px;
     align-items: center;
-    text-align: center;
+    justify-items: center;
+    justify-content: center;
 }
 
 .casetext {
