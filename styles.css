@@ -93,14 +93,15 @@ position: fixed;
 
 .meny {
 display: flex;
-justify-content: space-between;
-gap: 90px;
+gap: 3vw;
 }
 
 header {
-    display: flex;
+    display: grid;
+    grid-template-columns: 66vw 34vw;
     justify-content: space-between;
     margin: 2rem;
+    align-items: center;
 }
 
 a {
@@ -134,4 +135,28 @@ h4 {
 .casetext {
     margin: 0;
     font-weight: lighter;
+}
+
+.case-layout {
+    margin: 2em;
+    display: grid;
+    grid-template-columns: 66vw 34vw;
+}
+
+h1 {
+    font-size: 1.6em;
+}
+
+h2 {
+    font-size: 1em;
+    margin-bottom: 0;
+}
+
+.case-desc {
+    font-size: 0.8em;
+}
+
+.caseinfo {
+    font-size: 20px;
+    margin: 0;
 }
