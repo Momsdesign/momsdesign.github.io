@@ -21,6 +21,10 @@ body.dark-theme {
     width: 300px;
 }
 
+svg.logo {
+    fill: var(--fontColor);
+}
+
 @font-face {
     font-family: 'nimbus_sans_lbold';
     src: url('fonts/nimbussanl-bol-webfont.woff2') format('woff2'),
@@ -118,6 +122,7 @@ position: fixed;
 .meny {
 display: flex;
 gap: 3vw;
+max-width: 20em;
 }
 
 header {
