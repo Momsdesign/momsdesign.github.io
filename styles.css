@@ -299,6 +299,18 @@ img {
     display: var(--visabild);
 }
 
+video {
+    display: var(--visabild);
+}
+
 .zero-img {
     display: var(--visaej);
+}
+
+.svg-small {
+    width: 35em;
+}
+
+.svg-about {
+    width: 20em;
 }
