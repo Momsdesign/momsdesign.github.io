@@ -2,13 +2,19 @@
 body {
     --bgColor: #ffffff;
     --font-family: 'nimbus_sans_lregular';  
-    --fontColor: #000000;    
+    --fontColor: #000000;
+    --visabild: initial;
+    --visaej: none;
+    --colorlogo: #000;
 }
 /*Dark Theme Colors*/
 body.dark-theme {
     --bgColor: #000;
     --font-family: Arial;  
-    --fontColor: #fff;    
+    --fontColor: #fff;
+    --visabild: none;  
+    --visaej: initial;
+    --colorlogo: #fff;
 }
 
 .logo {
@@ -283,3 +289,11 @@ body {
     color: var(--fontColor);
     background: var(--bgColor);
   }
+
+img {
+    display: var(--visabild);
+}
+
+.zero-img {
+    display: var(--visaej);
+}
