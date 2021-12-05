@@ -256,7 +256,25 @@ input:checked + .slider:before {
   transform: translateX(26px);
 }
 
-.theme-toggle {
+.btn-toggle {
     background: transparent;
     border: none;
+}
+
+body {
+    color: #222;
+    background: #fff;
+  }
+
+body.dark-theme {
+    color: rgb(255, 255, 255);
+    background: #000000;
+  }
+body.dark-theme a {
+    color: #809fff;
+  }
+
+  .btn-toggle2 {
+    background: black;
+    border: solid 1px rgb(255, 251, 251);
 }
