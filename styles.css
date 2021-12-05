@@ -176,3 +176,25 @@ h2 {
     margin-top: 5em;
     width: 5em;
 }
+
+.casevideo {
+    width: 30vw;
+    margin-left: 25vw;
+}
+
+.about-info {
+    display: flex;
+    gap: 2em;
+    justify-content: space-between;
+}
+
+.about-img {
+    width: 40vw;
+    margin-left: 2em;
+}
+
+.about-text {
+    font-size: 0.6em;
+    margin-top: 0;
+    margin-right: 2em;
+}
