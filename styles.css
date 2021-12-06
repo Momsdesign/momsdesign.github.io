@@ -242,10 +242,6 @@ h2 {
     margin-right: 2rem;
 }
 
-/* Styling for switch */
-
-
-/* The switch - the box around the slider */
 .switch {
   position: relative;
   display: inline-block;
@@ -253,14 +249,12 @@ h2 {
   height: 34px;
 }
 
-/* Hide default HTML checkbox */
 .switch input {
   opacity: 0;
   width: 0;
   height: 0;
 }
 
-/* The slider */
 .slider {
   position: absolute;
   cursor: pointer;
@@ -337,5 +331,3 @@ html {
     max-width: 1440px;
     margin: auto;
 }
-
-@media ()
