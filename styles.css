@@ -34,9 +34,6 @@ svg.logo {
 
 }
 
-
-
-
 @font-face {
     font-family: 'nimbus_sans_lregular';
     src: url('fonts/nimbussanl-reg-webfont.woff2') format('woff2'),
@@ -47,11 +44,6 @@ svg.logo {
 }
 
 
-html {
-    font-size: 30px;
-    scroll-behavior: smooth;
-}
-
 .p-white {
     color: white;
 }
@@ -61,7 +53,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10em;
+    height: 10rem;
 }
 
 #videobackground {
@@ -91,8 +83,8 @@ position: fixed;
     position: fixed;
     display: flex;
     background-color: white;
-    height: 4em;
-    width: 4em;
+    height: 4rem;
+    width: 4rem;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
@@ -122,15 +114,31 @@ position: fixed;
 .meny {
 display: flex;
 gap: 3vw;
-max-width: 20em;
+max-width: 20rem;
 }
 
 header {
     display: grid;
-    grid-template-columns: 66vw 34vw;
+    grid-template-columns: 32rem 16rem;
     justify-content: space-between;
     margin: 2rem;
     align-items: center;
+    position: fixed;
+}
+
+.whitebox {
+    width: 48rem;
+    height: 4rem;
+    background: var(--bgColor);
+    position: fixed;
+}
+
+.nosticky {
+    background: transparent;
+}
+
+.sticky {
+    padding-top: 5rem;
 }
 
 a {
@@ -150,7 +158,7 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 9em;
+    height: 9rem;
 }
 
 .case {
@@ -167,22 +175,22 @@ h4 {
 }
 
 .case-layout {
-    margin: 2em;
+    margin: 0 2rem 2rem 2rem;
     display: grid;
-    grid-template-columns: 66vw 34vw;
+    grid-template-columns: 32rem 16rem;
 }
 
 h1 {
-    font-size: 1.6em;
+    font-size: 1.6rem;
 }
 
 h2 {
-    font-size: 1em;
+    font-size: 1rem;
     margin-bottom: 0;
 }
 
 .case-desc {
-    font-size: 0.8em;
+    font-size: 0.8rem;
 }
 
 .caseinfo {
@@ -191,9 +199,9 @@ h2 {
 }
 
 .caseimg {
-    width: 80vw;
-    margin-left: 2em;
-    margin-right: 2em;
+    width: 38rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .linkbutton {
@@ -202,8 +210,8 @@ h2 {
     border: 2px solid var(--fontColor);
     color: var(--bgColor);
     padding: 0.2rem 1.5rem;
-    margin-top: 5em;
-    width: 6em;
+    margin-top: 5rem;
+    width: 6rem;
 }
 
 .casevideo {
@@ -213,19 +221,19 @@ h2 {
 
 .about-info {
     display: flex;
-    gap: 6em;
+    gap: 6rem;
     /* justify-content: space-between; */
 }
 
 .about-img {
     width: 40vw;
-    margin-left: 2em;
+    margin-left: 2rem;
 }
 
 .about-text {
-    font-size: 0.6em;
+    font-size: 0.6rem;
     margin-top: 0;
-    margin-right: 2em;
+    margin-right: 2rem;
 }
 
 /* Styling for switch */
@@ -293,7 +301,9 @@ input:checked + .slider:before {
 body {
     color: var(--fontColor);
     background: var(--bgColor);
+    margin: 0;
   }
+
 
 img {
     display: var(--visabild);
@@ -308,9 +318,15 @@ video {
 }
 
 .svg-small {
-    width: 35em;
+    width: 35rem;
 }
 
 .svg-about {
-    width: 20em;
+    width: 20rem;
+}
+
+html {
+    font-size: 30px;
+    scroll-behavior: smooth;
+    max-width: 1440px;
 }
