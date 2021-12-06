@@ -48,6 +48,12 @@ svg.logo {
     color: white;
 }
 
+.text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
 .center {
     display: flex;
@@ -113,13 +119,13 @@ position: fixed;
 
 .meny {
 display: flex;
-gap: 3vw;
+gap: 0.5rem;
 max-width: 20rem;
 }
 
 header {
     display: grid;
-    grid-template-columns: 32rem 16rem;
+    grid-template-columns: 28rem 20rem;
     justify-content: space-between;
     margin: 2rem;
     align-items: center;
@@ -329,4 +335,7 @@ html {
     font-size: 30px;
     scroll-behavior: smooth;
     max-width: 1440px;
+    margin: auto;
 }
+
+@media ()
