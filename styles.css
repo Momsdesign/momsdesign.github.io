@@ -6,7 +6,7 @@ body {
     --visabild: initial;
     --visaej: none;
     --colorlogo: #000;
-    --sliderrange: 35rem 13rem;
+    --sliderrange: 35.5rem 11rem;
 }
 /*Dark Theme Colors*/
 body.dark-theme {
@@ -16,7 +16,7 @@ body.dark-theme {
     --visabild: none;  
     --visaej: initial;
     --colorlogo: #fff;
-    --sliderrange: 29rem 17rem;
+    --sliderrange: 29.5rem 17rem;
 }
 
 .logo {
@@ -334,14 +334,21 @@ html {
     margin: auto;
 }
 
+p {
+    font-size: 1rem;
+}
 
-@media (max-width: 980px) { 
+/* @media (max-width: 1200px) { 
     html {
       font-size: 24px;
-      letter-spacing: 0.16em;
     }
 
-@media (max-width: 600px) {
+    @media (max-width: 940px) { 
+        html {
+          font-size: 20px;
+        }
+
+    @media (max-width: 600px) {
         html {
         font-size: 18px;
-    }
+    } */
