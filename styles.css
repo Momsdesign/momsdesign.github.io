@@ -134,6 +134,8 @@ header {
     width: 100%;
     position: fixed;
     max-width: 1440px;
+    /* Erik tipsar om detta i nästan all kontent */
+    box-sizing: border-box;
 }
 
 .whitebox {
