@@ -127,11 +127,13 @@ max-width: 20rem;
 
 header {
     display: grid;
-    grid-template-columns: var(--sliderrange);
+    grid-template-columns: repeat(2, auto);
     justify-content: space-between;
-    margin: 2rem;
+    margin: 2rem 0;
     align-items: center;
+    width: 100%;
     position: fixed;
+    max-width: 1440px;
 }
 
 .whitebox {
